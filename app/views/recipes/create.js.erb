@@ -1,0 +1,5 @@
+$("textarea").val("");
+$("input").val("");
+$('#modal1').modal('hide')
+$('.recipes').html("<%= escape_javascript(render 'recipes', recipes: @recipes )%>")
+

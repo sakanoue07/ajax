@@ -1,0 +1,8 @@
+<% recipes.each do |recipe| %>
+  <div class="card mt-1">
+    <div class="card-body">
+      <div class="card-text"><%= recipe.title %></div>
+      <div class="card-text"><small><%= simple_format recipe.body %></small></div>
+    </div>
+  </div>
+<% end %>
